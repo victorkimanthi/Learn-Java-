@@ -1,0 +1,19 @@
+class Burger{
+//fields and methods
+}
+
+class HealthyBurger extends Burger{
+//fields and methods
+}
+
+class BurgerFactory{
+    public Burger createBurger(){
+      return new Burger();
+      }
+      }
+      
+ class HealthyBurgerFactory extends BurgerFactory{
+    public HealthyBurger createBurger(){ //healthyBurger is a constraint return type since it is a child of burger
+      return new HealthyBurger();
+      }
+      }

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PackageChallengePractice:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PackageChallengePractice_jar</output-path>
+    <root id="archive" name="PackageChallengePractice.jar">
+      <element id="module-output" name="PackageChallengePractice" />
+    </root>
+  </artifact>
+</component>
